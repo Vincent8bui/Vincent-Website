@@ -1,26 +1,72 @@
 body {
-nav{
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Data Set Project</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="SecondPage.html">Data Set</a></li>
-      <li><a href="drawingapp.html">Page 3</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Data Set Project</h1>
-    <p>Check out my app using data:</p>
-    <a class="project-link" href="https://studio.code.org/projects/applab/NkuowpZTj10HXKA-YW-kIAsoT1SCYscIS0auSpRWEQ8" target="_blank">View Data Set App</a>
-  </main>
-</body>
-</html>
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  padding-top: 70px;
+}
+
+nav {
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  color: #00ff88;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #222;
+  text-align: center;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #00b894;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #019875;
 }
