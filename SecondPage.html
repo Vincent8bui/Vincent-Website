@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <title>Data Set App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Set Project | Vincent's Website</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="secondpage.html">Data Set</a></li>
-      <li><a href="vacationchooser.html">Vacation Chooser</a></li>
-    </ul>
+    <div class="nav-container">
+      <h1 class="logo">Vincent's Projects</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="secondpage.html" class="active">Data Set</a></li>
+        <li><a href="vacationchooser.html">Vacation Chooser</a></li>
+      </ul>
+    </div>
   </nav>
+
   <main>
-    <section class="content">
-      <h1>Data Set Project</h1>
-      <p>This app uses real-world data to create an interactive experience:</p>
-      <div class="iframe-container">
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Vl2S23XywSL3XRIn8ZiU2gWAG3p26d5Kc5FIAFv1GKk/embed"></iframe>
+    <section class="content-container">
+      <h2>Data Set Interactive App</h2>
+      <p>Explore this interactive app created with Code.org that works with real-world data to teach and visualize.</p>
+      <div class="iframe-wrapper">
+        <iframe
+          src="https://studio.code.org/projects/applab/Vl2S23XywSL3XRIn8ZiU2gWAG3p26d5Kc5FIAFv1GKk/embed"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy"
+          title="Data Set Project"
+        ></iframe>
       </div>
     </section>
   </main>
+
+  <footer>
+    <p>© 2025 Vincent Bui | Built with ❤️ and Code.org projects</p>
+  </footer>
 </body>
 </html>
