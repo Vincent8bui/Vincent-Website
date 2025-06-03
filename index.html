@@ -1,23 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <title>Vincent's Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vincent's Projects | Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="secondpage.html">Data Set</a></li>
-      <li><a href="vacationchooser.html">Vacation Chooser</a></li>
-    </ul>
+    <div class="nav-container">
+      <h1 class="logo">Vincent's Projects</h1>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="secondpage.html">Data Set</a></li>
+        <li><a href="vacationchooser.html">Vacation Chooser</a></li>
+      </ul>
+    </div>
   </nav>
+
   <main>
-    <section class="content">
-      <h1>Welcome to Vincent's Project Site</h1>
-      <p>Click the menu to see my interactive apps created using Code.org!</p>
+    <section class="hero">
+      <h2>Welcome to Vincent's Interactive Web Apps!</h2>
+      <p>Explore fun projects built with Code.org to learn, play, and create.</p>
+      <a href="vacationchooser.html" class="btn-primary">Try the Vacation Chooser App</a>
+    </section>
+
+    <section class="projects-overview">
+      <h3>Featured Projects</h3>
+      <div class="project-cards">
+        <article class="card">
+          <h4>Data Set Project</h4>
+          <p>Analyze and visualize real-world data with this interactive app.</p>
+          <a href="secondpage.html" class="btn-secondary">View Project</a>
+        </article>
+
+        <article class="card">
+          <h4>Vacation Chooser App</h4>
+          <p>Get help picking your perfect vacation destination with this fun tool.</p>
+          <a href="vacationchooser.html" class="btn-secondary">Explore App</a>
+        </article>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <p>© 2025 Vincent Bui | Built with ❤️ and Code.org projects</p>
+  </footer>
 </body>
 </html>
